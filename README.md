@@ -1,2 +1,2 @@
 # PI
-Proyecto integrador del septimo semestre de la facultad de telematica
+Proyecto integrador del septimo semestre de la Facultad de Telematica
