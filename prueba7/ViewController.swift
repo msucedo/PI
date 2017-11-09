@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var preguntasArray :  [Mensajes] = [Mensajes]()
     var indexPreguntas = 0
+    var ide = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -158,6 +159,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 if let dictionary = snapshot.value as? [String: AnyObject] {
                     rolUsuario = dictionary["rol"] as! String
                     
+                    //let myVC = self.storyboard?.instantiateViewController(withIdentifier: "SelectedTicketViewController") as! SelectedTicketViewController
+                    //myVC.id = snapshot.key
+                    
+                   
+                    
                     if rolUsuario == "Universitario" {
                         self.usuarioUniver()
                     }
@@ -193,11 +199,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 
                 let text = snapshotValue?["pregunta"]!
                 let sender = snapshotValue?["nombre"]!
+                let id = snapshot.key
                 
                 if correo == sender as! String {
                     let mensaje = Mensajes()
                     mensaje.pregunta = text as! String
                     mensaje.sender = sender as! String
+                    mensaje.id = id
+                    
+                    
                     
                     self.preguntasArray.append(mensaje)
                     

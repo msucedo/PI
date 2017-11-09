@@ -84,11 +84,11 @@ class CerrarTicketViewController: UIViewController {
             mensaje.timestamp = time as! NSNumber
             id = mensaje.id!
             
-        })
-        let id2 = id
+        }, withCancel: nil)
+        
         let timestamp = NSDate().timeIntervalSince1970
         
-        let preguntasDictionary = ["nombre": FIRAuth.auth()?.currentUser?.email!, "Ticket": id2, "estado": "Cerrado", "motivo": "desconocido", "hora Creado": mensaje.timestamp, "hora cerrado": timestamp] as [String : Any]
+        let preguntasDictionary = ["nombre": FIRAuth.auth()?.currentUser?.email!, "Ticket": mensaje.id, "estado": "Cerrado", "motivo": "desconocido", "hora Creado": mensaje.timestamp, "hora cerrado": timestamp] as [String : Any]
         
         preguntasDB1.childByAutoId().setValue(preguntasDictionary) {
             (error, ref) in

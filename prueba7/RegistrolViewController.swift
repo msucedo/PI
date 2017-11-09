@@ -113,10 +113,12 @@ class RegistrolViewController: UIViewController {
         correoUsuarioLabel.layer.borderColor = myColor.cgColor
         correoUsuarioLabel.layer.borderWidth = 1.0
         correoUsuarioLabel.layer.cornerRadius = 15.0
+        correoUsuarioLabel.attributedPlaceholder = NSAttributedString(string: "Correo electronico", attributes: [NSForegroundColorAttributeName: UIColor.white])
         
         clave1UsuarioLabel.layer.borderColor = myColor.cgColor
         clave1UsuarioLabel.layer.borderWidth = 1.0
         clave1UsuarioLabel.layer.cornerRadius = 15.0
+        clave1UsuarioLabel.attributedPlaceholder = NSAttributedString(string: "Contraseña", attributes: [NSForegroundColorAttributeName: UIColor.white])
         
         clave2UsuarioLabel.layer.borderColor = myColor.cgColor
         clave2UsuarioLabel.layer.borderWidth = 1.0
@@ -126,10 +128,12 @@ class RegistrolViewController: UIViewController {
         nombreUsuarioLabel.layer.borderColor = myColor.cgColor
         nombreUsuarioLabel.layer.borderWidth = 1.0
         nombreUsuarioLabel.layer.cornerRadius = 15.0
+        nombreUsuarioLabel.attributedPlaceholder = NSAttributedString(string: "Nombre completo", attributes: [NSForegroundColorAttributeName: UIColor.white])
         
         origenUsuarioLabel.layer.borderColor = myColor.cgColor
         origenUsuarioLabel.layer.borderWidth = 1.0
         origenUsuarioLabel.layer.cornerRadius = 15.0
+        origenUsuarioLabel.attributedPlaceholder = NSAttributedString(string: "Facultad/Dependencia", attributes: [NSForegroundColorAttributeName: UIColor.white])
         
         
         registrateButton.layer.cornerRadius = 15.0

@@ -50,12 +50,15 @@ class LoginViewController: UIViewController {
         correoLabel.layer.borderColor = myColor.cgColor
         correoLabel.layer.borderWidth = 1.0
         correoLabel.layer.cornerRadius = 15.0
+        correoLabel.attributedPlaceholder = NSAttributedString(string: "Correo electronico", attributes: [NSForegroundColorAttributeName: UIColor.white])
         
         contraseñaLabel.layer.borderColor = myColor.cgColor
         contraseñaLabel.layer.borderWidth = 1.0
         contraseñaLabel.layer.cornerRadius = 15.0
+        contraseñaLabel.attributedPlaceholder = NSAttributedString(string: "Contraseña", attributes: [NSForegroundColorAttributeName: UIColor.white])
 
         loginLabel.layer.cornerRadius = 15.0
+        
     }
 
     override func didReceiveMemoryWarning() {

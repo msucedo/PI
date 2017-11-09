@@ -210,7 +210,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BCK-bG-HrP">
                                 <rect key="frame" x="57" y="89" width="260" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -1226,10 +1226,10 @@
         <image name="menu-burger" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="a4Y-RM-KVB"/>
         <segue reference="yQ0-PE-3VL"/>
-        <segue reference="sxh-xo-bSX"/>
-        <segue reference="t5f-Om-0Dn"/>
-        <segue reference="Dyy-o5-LZi"/>
         <segue reference="der-bS-c3R"/>
+        <segue reference="Dyy-o5-LZi"/>
+        <segue reference="HcA-vL-ESw"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -28,6 +28,7 @@ class NuevoTicketViewController: UIViewController {
         super.viewDidLoad()
 
         enviarButton.layer.cornerRadius = 15.0
+        
     }
 
     override func didReceiveMemoryWarning() {

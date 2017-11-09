@@ -80,8 +80,7 @@ class SelectedTicketViewController: UIViewController, UITableViewDelegate, UITab
             
             let text = snapshotValue?["pregunta"]!
             let sender = snapshotValue?["nombre"]!
-            
-            
+           
             
             let mensaje = Mensajes()
             mensaje.id = snapshot.key
@@ -111,6 +110,7 @@ class SelectedTicketViewController: UIViewController, UITableViewDelegate, UITab
         let destino = prueba
         let respuestasDictionary = ["nombre": FIRAuth.auth()?.currentUser?.email!, "respuesta": respuestaTxtLabel.text!, "estado": "En proceso", "destinatario": destino, "timestamp": timestamp, "calificación": "null"] as [String : Any]
         
+        
         respuestasDB.childByAutoId().setValue(respuestasDictionary) {
             (error, ref) in
             
@@ -122,6 +122,28 @@ class SelectedTicketViewController: UIViewController, UITableViewDelegate, UITab
                 self.respuestaTxtLabel.text = ""
             }
         }
+        
+        //cambiandoEstado()
+    }
+    
+    func cambiandoEstado() {
+        //var id = asignarTxtLabel.text
+        //let uid = FIRAuth.auth()?.currentUser?.uid
+        //FIRDatabase.database().reference().child("usuarios").child(uid!)
+        let ref = FIRDatabase.database().reference()
+        let usersReference = ref.child("preguntas")
+        let values = ["estado": "En proceso"]
+        usersReference.updateChildValues(values, withCompletionBlock: {
+            (err, ref) in
+            
+            if err != nil {
+                print(err!)
+                return
+            }else{
+                print("rol actualizado con EXITO")
+                self.dismiss(animated: true, completion: nil)
+            }
+        })
     }
     
 
