@@ -16,12 +16,15 @@ class DetailsTicketViewController: UIViewController {
     @IBOutlet weak var horaGeneradoLabel: UILabel!
     @IBOutlet weak var RespondidoLabel: UILabel!
     @IBOutlet weak var estadoLabel: UITextField!
+    @IBOutlet weak var preguntonLabel: UILabel!
+    @IBOutlet weak var idTicketLabel: UILabel!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        fechaTicket()
+        //fechaTicket()
         estadoTicket()
+        pruebaFecha()
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,7 +45,38 @@ class DetailsTicketViewController: UIViewController {
                 self.fechaGeneradoLabel.text = dictionary["timestamp"] as? String
                 print("PRUEBA de fecha funcionando")
             }
+            else{
+                print("vale madr")
+            }
         })
+    }
+    
+    func pruebaFecha() {
+        let preguntasDB = FIRDatabase.database().reference().child("preguntas")
+        preguntasDB.observe(.childAdded, with: {
+            (snapshot) in
+            
+            let snapshotValue = snapshot.value as? [String: AnyObject]
+    
+            let sender = snapshotValue?["nombre"]!
+            let time = snapshotValue?["timestamp"]!
+            let estado = snapshotValue?["estado"]
+            
+            
+            let mensaje = Mensajes()
+            mensaje.id = snapshot.key
+            let id = mensaje.id
+            mensaje.sender = sender as! String
+            mensaje.timestamp = time as! NSNumber
+            mensaje.estado = estado as! String
+            
+            self.fechaGeneradoLabel.text = String(format: "%@", time as! CVarArg)
+            self.preguntonLabel.text = mensaje.sender
+            self.idTicketLabel.text = id
+            self.estadoLabel.text = mensaje.estado
+            
+        }, withCancel: nil)
+
     }
     
     func estadoTicket() {

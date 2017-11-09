@@ -109,7 +109,7 @@ class SelectedTicketViewController: UIViewController, UITableViewDelegate, UITab
         
         let timestamp = NSDate().timeIntervalSince1970
         let destino = prueba
-        let respuestasDictionary = ["nombre": FIRAuth.auth()?.currentUser?.email!, "respuesta": respuestaTxtLabel.text!, "estado": "En proceso", "destinatario": destino, "timestamp": timestamp] as [String : Any]
+        let respuestasDictionary = ["nombre": FIRAuth.auth()?.currentUser?.email!, "respuesta": respuestaTxtLabel.text!, "estado": "En proceso", "destinatario": destino, "timestamp": timestamp, "calificación": "null"] as [String : Any]
         
         respuestasDB.childByAutoId().setValue(respuestasDictionary) {
             (error, ref) in

@@ -40,6 +40,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tipoUsuario()
+        //estaCerradoElTicket()
     }
     
     //provide cells that are going to be show, cual sera la celda que mostrare en la siguiente linea? ... aqui debo con un if intercambiar de celdas para el que pregunta y el que responde
@@ -130,6 +131,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         })
     }*/
     
+    func estaCerradoElTicket() {
+        let preguntasDB = FIRDatabase.database().reference().child("historial")
+        preguntasDB.observe(.childAdded, with: {
+            (snapshot) in
+            
+            let snapshotValue = snapshot.value as? [String: AnyObject]
+
+            let estado = snapshotValue?["estado"]
+            
+            if estado as! String != "Cerrado" {
+                self.tipoUsuario()
+            }
+            else{
+                print("no hay tickets abiertos")
+            }
+        }, withCancel: nil)
+    }
     
     func tipoUsuario() {
         var rolUsuario = ""
