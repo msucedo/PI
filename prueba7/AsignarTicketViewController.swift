@@ -18,6 +18,9 @@ class AsignarTicketViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        asignarBtnLabel.layer.cornerRadius = 15.0
+        cancelarBtnLabel.layer.cornerRadius = 15.0
 
         // Do any additional setup after loading the view.
     }

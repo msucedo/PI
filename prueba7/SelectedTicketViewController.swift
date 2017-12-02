@@ -33,6 +33,7 @@ class SelectedTicketViewController: UIViewController, UITableViewDelegate, UITab
         SelectedTicketTableView.register(UINib(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "customMessageCell")
         confiTableView()
         ticketSeleccionado()
+        mostrarRespuesta()
     }
 
     override func didReceiveMemoryWarning() {
@@ -74,13 +75,37 @@ class SelectedTicketViewController: UIViewController, UITableViewDelegate, UITab
         preguntasDB.observe(.childAdded, with: {
             (snapshot) in
             
-            
-            
             let snapshotValue = snapshot.value as? [String: AnyObject]
             
             let text = snapshotValue?["pregunta"]!
             let sender = snapshotValue?["nombre"]!
            
+            
+            let mensaje = Mensajes()
+            mensaje.id = snapshot.key
+            self.prueba = snapshot.key
+            mensaje.pregunta = text as! String
+            mensaje.sender = sender as! String
+            
+            self.preguntasArray.append(mensaje)
+            
+            self.confiTableView()
+            self.SelectedTicketTableView.reloadData()
+            
+            
+        }, withCancel: nil)
+    }
+    
+    func mostrarRespuesta() {
+        let preguntasDB = FIRDatabase.database().reference().child("respuestas")
+        preguntasDB.observe(.childAdded, with: {
+            (snapshot) in
+            
+            let snapshotValue = snapshot.value as? [String: AnyObject]
+            
+            let text = snapshotValue?["respuesta"]!
+            let sender = snapshotValue?["nombre"]!
+            
             
             let mensaje = Mensajes()
             mensaje.id = snapshot.key

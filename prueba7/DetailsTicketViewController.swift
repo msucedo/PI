@@ -18,6 +18,7 @@ class DetailsTicketViewController: UIViewController {
     @IBOutlet weak var estadoLabel: UITextField!
     @IBOutlet weak var preguntonLabel: UILabel!
     @IBOutlet weak var idTicketLabel: UILabel!
+    @IBOutlet weak var cambiarEstadoBtnlbl: UIButton!
     
 
     override func viewDidLoad() {
@@ -25,6 +26,8 @@ class DetailsTicketViewController: UIViewController {
         //fechaTicket()
         estadoTicket()
         pruebaFecha()
+        regresarLabel.layer.cornerRadius = 15.0
+        cambiarEstadoBtnlbl.layer.cornerRadius = 15.0
     }
 
     override func didReceiveMemoryWarning() {

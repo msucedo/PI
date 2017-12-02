@@ -18,6 +18,9 @@ class AsignarBibliotecarioViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        cancelarBtnLabel.layer.cornerRadius = 15.0
+        asignarBtnLabel.layer.cornerRadius = 15.0
 
         // Do any additional setup after loading the view.
     }

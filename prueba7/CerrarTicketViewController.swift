@@ -33,7 +33,7 @@ class CerrarTicketViewController: UIViewController {
     
     func calificarTicket() {
         
-        let alertController = UIAlertController(title: "Calificame!", message: "¿Como estuvo mi servicio?", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Cerrando ticket...Ultimo paso", message: "Comentario u observación", preferredStyle: .alert)
         
         alertController.addTextField { (textField) in
             textField.text = ""

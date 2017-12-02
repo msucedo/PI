@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyQ-QC-ryg">
-                                <rect key="frame" x="75" y="357" width="225" height="36"/>
+                                <rect key="frame" x="75" y="343" width="225" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
@@ -34,28 +34,32 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Correo universitario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pZN-u3-Dcc">
-                                <rect key="frame" x="75" y="259" width="225" height="36"/>
+                                <rect key="frame" x="75" y="248" width="225" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Libreria UdeC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cq7-1k-gOY">
-                                <rect key="frame" x="33" y="86" width="308" height="73"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blinfo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cq7-1k-gOY">
+                                <rect key="frame" x="99" y="81" width="177" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="46"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="63"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p4n-6E-jad">
-                                <rect key="frame" x="75" y="308" width="225" height="36"/>
+                                <rect key="frame" x="75" y="292" width="225" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pilogo2" translatesAutoresizingMaskIntoConstraints="NO" id="Siu-5k-Fzf">
+                                <rect key="frame" x="126" y="506" width="122" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ava-r1-Rq5">
-                                <rect key="frame" x="55" y="401" width="264" height="30"/>
+                                <rect key="frame" x="55" y="387" width="264" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
                                 <state key="normal" title="No tienes una cuenta?, Registrate gratis">
@@ -78,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fco-um-5qJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1106" y="-79"/>
+            <point key="canvasLocation" x="-1106.4000000000001" y="-79.610194902548727"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="end-l3-Gz4">
@@ -251,13 +255,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Libreria UdeC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afl-uj-cXa">
-                                <rect key="frame" x="33" y="45" width="308" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="46"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ticket generado el :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iG2-nQ-ySd">
                                 <rect key="frame" x="16" y="189" width="163" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -356,18 +353,26 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UBo-Do-WUx">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="En proceso" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UBo-Do-WUx">
                                 <rect key="frame" x="15" y="424" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blinfo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afl-uj-cXa">
+                                <rect key="frame" x="127" y="60" width="146" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="46"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.12549019610000001" green="0.2156862745" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="RespondidoLabel" destination="Ed0-lR-UmC" id="FxY-un-NA6"/>
+                        <outlet property="cambiarEstadoBtnlbl" destination="DQZ-pd-Cqn" id="1Mw-cH-9d1"/>
                         <outlet property="estadoLabel" destination="UBo-Do-WUx" id="Uaq-Qp-wgJ"/>
                         <outlet property="fechaGeneradoLabel" destination="FNU-er-TM9" id="PFr-7t-qKW"/>
                         <outlet property="horaGeneradoLabel" destination="mzu-C5-I5n" id="alD-8r-npI"/>
@@ -459,6 +464,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.12549019610000001" green="0.2156862745" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="cancelarBtnlbl" destination="If0-IW-dqr" id="aL7-eT-K26"/>
+                        <outlet property="transferirBtnlbl" destination="8kb-pT-5D1" id="Yzz-DH-fKt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VCy-pA-pg5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -534,10 +543,10 @@
             </objects>
             <point key="canvasLocation" x="3901.5999999999999" y="1019.640179910045"/>
         </scene>
-        <!--View Controller-->
+        <!--Asignar Desde Admin View Controller-->
         <scene sceneID="kBP-Mx-snL">
             <objects>
-                <viewController id="jLC-3E-Bep" sceneMemberID="viewController">
+                <viewController id="jLC-3E-Bep" customClass="AsignarDesdeAdminViewController" customModule="prueba7" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q4r-j0-PPR"/>
                         <viewControllerLayoutGuide type="bottom" id="RyX-gK-idi"/>
@@ -575,6 +584,9 @@
                                 <state key="normal" title="Asignar">
                                     <color key="titleColor" red="0.12549019610000001" green="0.2156862745" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnAsignarBibliotecario:" destination="jLC-3E-Bep" eventType="touchUpInside" id="dp2-7V-xt8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Asignar responsable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnP-MQ-Z9b">
                                 <rect key="frame" x="91" y="357" width="170" height="21"/>
@@ -605,6 +617,9 @@
                                 <state key="normal" title="Asignar">
                                     <color key="titleColor" red="0.12549019610000001" green="0.2156862745" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnAsignarResponsable:" destination="jLC-3E-Bep" eventType="touchUpInside" id="iy6-dC-7o2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bR3-ED-EcY">
                                 <rect key="frame" x="55" y="558" width="260" height="45"/>
@@ -614,10 +629,20 @@
                                 <state key="normal" title="Cancelar">
                                     <color key="titleColor" red="0.12549019610000001" green="0.2156862745" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnCancelar:" destination="jLC-3E-Bep" eventType="touchUpInside" id="nrc-Va-JCn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.12549019610000001" green="0.2156862745" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="lblBtnAsignar" destination="krP-Gz-xwa" id="Bbs-gT-lXt"/>
+                        <outlet property="lblBtnCancelar" destination="bR3-ED-EcY" id="6OU-4U-kt8"/>
+                        <outlet property="lblBtnResponsableAsignar" destination="ZoP-CX-K9u" id="GVY-lg-OfF"/>
+                        <outlet property="txtIDAsignar" destination="sf4-xN-Rzc" id="WyZ-BG-d1h"/>
+                        <outlet property="txtIDResponsable" destination="Pdp-Nb-HMD" id="1zd-by-I44"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V9t-yP-Nkb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1016,7 +1041,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IyD-7q-qhP" id="96h-Z8-hIj">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -1097,14 +1122,14 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cLz-2T-W3h">
-                                <rect key="frame" x="0.0" y="64" width="375" height="556"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="KWN-mz-Pr7">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KWN-mz-Pr7" id="myT-ve-vGC">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -1224,12 +1249,13 @@
         <image name="add" width="25" height="25"/>
         <image name="leftArrow" width="25" height="25"/>
         <image name="menu-burger" width="25" height="25"/>
+        <image name="pilogo2" width="251" height="177"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="a4Y-RM-KVB"/>
-        <segue reference="yQ0-PE-3VL"/>
-        <segue reference="der-bS-c3R"/>
         <segue reference="Dyy-o5-LZi"/>
+        <segue reference="der-bS-c3R"/>
         <segue reference="HcA-vL-ESw"/>
+        <segue reference="sxh-xo-bSX"/>
+        <segue reference="yQ0-PE-3VL"/>
     </inferredMetricsTieBreakers>
 </document>

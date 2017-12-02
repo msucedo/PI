@@ -123,7 +123,7 @@ class RegistrolViewController: UIViewController {
         clave2UsuarioLabel.layer.borderColor = myColor.cgColor
         clave2UsuarioLabel.layer.borderWidth = 1.0
         clave2UsuarioLabel.layer.cornerRadius = 15.0
-        clave2UsuarioLabel.isEnabled = false
+        clave2UsuarioLabel.attributedPlaceholder = NSAttributedString(string: "Repite la contraseña", attributes: [NSForegroundColorAttributeName: UIColor.white])
         
         nombreUsuarioLabel.layer.borderColor = myColor.cgColor
         nombreUsuarioLabel.layer.borderWidth = 1.0

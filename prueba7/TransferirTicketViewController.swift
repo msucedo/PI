@@ -10,8 +10,15 @@ import UIKit
 
 class TransferirTicketViewController: UIViewController {
 
+    @IBOutlet weak var transferirBtnlbl: UIButton!
+    @IBOutlet weak var cancelarBtnlbl: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        transferirBtnlbl.layer.cornerRadius = 15.0
+        cancelarBtnlbl.layer.cornerRadius = 15.0
 
         // Do any additional setup after loading the view.
     }

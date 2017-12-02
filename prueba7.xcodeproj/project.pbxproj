@@ -13,11 +13,11 @@
 		A105C9BF1F9994FC008CFB6C /* AsignarBibliotecarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A105C9BE1F9994FC008CFB6C /* AsignarBibliotecarioViewController.swift */; };
 		A1451DEA1F82EEE700D4B0F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1451DE91F82EEE700D4B0F1 /* AppDelegate.swift */; };
 		A1451DEF1F82EEE700D4B0F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1451DED1F82EEE700D4B0F1 /* Main.storyboard */; };
-		A1451DF11F82EEE700D4B0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1451DF01F82EEE700D4B0F1 /* Assets.xcassets */; };
 		A1451DF41F82EEE700D4B0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1451DF21F82EEE700D4B0F1 /* LaunchScreen.storyboard */; };
 		A1451DFE1F82EFF900D4B0F1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1451DFD1F82EFF900D4B0F1 /* SWRevealViewController.m */; };
 		A1451E001F83002300D4B0F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1451DFF1F83002300D4B0F1 /* ViewController.swift */; };
 		A1451E021F83182900D4B0F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1451E011F83182900D4B0F1 /* LoginViewController.swift */; };
+		A17686041FCE2883009A1964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17686031FCE2883009A1964 /* Assets.xcassets */; };
 		A1847A961F85BAB700BE7F7E /* RegistrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1847A951F85BAB700BE7F7E /* RegistrolViewController.swift */; };
 		A18FFFAD1F88AD420086A371 /* LeftSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FFFAC1F88AD420086A371 /* LeftSideMenuViewController.swift */; };
 		A1AF5FDE1F89499B008992A1 /* SelectedTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AF5FDD1F89499B008992A1 /* SelectedTicketViewController.swift */; };
@@ -30,6 +30,7 @@
 		A1BC0B591F8C4DD8006BB91D /* DetailsTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC0B581F8C4DD8006BB91D /* DetailsTicketViewController.swift */; };
 		A1BD12511F9FA50C00A308F4 /* CerrarTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD12501F9FA50C00A308F4 /* CerrarTicketViewController.swift */; };
 		A1DE3AE31F8874D700581F1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1DE3AE21F8874D700581F1E /* GoogleService-Info.plist */; };
+		A1E62E4A1FBB6651008D6C23 /* AsignarDesdeAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E62E491FBB6651008D6C23 /* AsignarDesdeAdminViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +42,6 @@
 		A1451DE61F82EEE700D4B0F1 /* prueba7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prueba7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1451DE91F82EEE700D4B0F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1451DEE1F82EEE700D4B0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1451DF01F82EEE700D4B0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1451DF31F82EEE700D4B0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1451DF51F82EEE700D4B0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1451DFB1F82EFF800D4B0F1 /* prueba7-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "prueba7-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -49,6 +49,7 @@
 		A1451DFD1F82EFF900D4B0F1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		A1451DFF1F83002300D4B0F1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1451E011F83182900D4B0F1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A17686031FCE2883009A1964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = prueba7/Assets.xcassets; sourceTree = "<group>"; };
 		A1847A951F85BAB700BE7F7E /* RegistrolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrolViewController.swift; sourceTree = "<group>"; };
 		A18FFFAC1F88AD420086A371 /* LeftSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideMenuViewController.swift; sourceTree = "<group>"; };
 		A1AF5FDD1F89499B008992A1 /* SelectedTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedTicketViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		A1BC0B581F8C4DD8006BB91D /* DetailsTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTicketViewController.swift; sourceTree = "<group>"; };
 		A1BD12501F9FA50C00A308F4 /* CerrarTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CerrarTicketViewController.swift; sourceTree = "<group>"; };
 		A1DE3AE21F8874D700581F1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A1E62E491FBB6651008D6C23 /* AsignarDesdeAdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsignarDesdeAdminViewController.swift; sourceTree = "<group>"; };
 		E407C8EC799355381974D409 /* Pods-prueba7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba7.release.xcconfig"; path = "Pods/Target Support Files/Pods-prueba7/Pods-prueba7.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				A1451DE81F82EEE700D4B0F1 /* prueba7 */,
+				A17686031FCE2883009A1964 /* Assets.xcassets */,
 				A1451DE71F82EEE700D4B0F1 /* Products */,
 				E2F47DF5E9A7A23458FC5B43 /* Pods */,
 				78175FD8240E911DC3C1F276 /* Frameworks */,
@@ -109,7 +112,6 @@
 				A1DE3AE51F88790600581F1E /* View */,
 				A1DE3AE41F8878DD00581F1E /* Controller */,
 				A1DE3AE61F88791800581F1E /* Supporting Files */,
-				A1451DF01F82EEE700D4B0F1 /* Assets.xcassets */,
 			);
 			path = prueba7;
 			sourceTree = "<group>";
@@ -143,6 +145,7 @@
 				A105B28D1F9F765200099CA7 /* AsignarTicketViewController.swift */,
 				A105B28F1F9F798C00099CA7 /* TransferirTicketViewController.swift */,
 				A1BD12501F9FA50C00A308F4 /* CerrarTicketViewController.swift */,
+				A1E62E491FBB6651008D6C23 /* AsignarDesdeAdminViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -251,7 +254,7 @@
 				A1451DF41F82EEE700D4B0F1 /* LaunchScreen.storyboard in Resources */,
 				A1DE3AE31F8874D700581F1E /* GoogleService-Info.plist in Resources */,
 				A1AF5FE71F896F3F008992A1 /* AnswerTableViewCell.xib in Resources */,
-				A1451DF11F82EEE700D4B0F1 /* Assets.xcassets in Resources */,
+				A17686041FCE2883009A1964 /* Assets.xcassets in Resources */,
 				A1451DEF1F82EEE700D4B0F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +331,7 @@
 				A1AF5FDE1F89499B008992A1 /* SelectedTicketViewController.swift in Sources */,
 				A1AF5FE11F896D3F008992A1 /* CustomMessageCell.swift in Sources */,
 				A1BC0B591F8C4DD8006BB91D /* DetailsTicketViewController.swift in Sources */,
+				A1E62E4A1FBB6651008D6C23 /* AsignarDesdeAdminViewController.swift in Sources */,
 				A1451E021F83182900D4B0F1 /* LoginViewController.swift in Sources */,
 				A105C9BF1F9994FC008CFB6C /* AsignarBibliotecarioViewController.swift in Sources */,
 				A105B28E1F9F765300099CA7 /* AsignarTicketViewController.swift in Sources */,
